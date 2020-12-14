@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `npm install` 
 
-To get the node package for installed modules
+To get the node package installed for added modules
 
 ### `npm start`
 
@@ -20,6 +20,6 @@ The page will reload if you make edits.\
 
 ## More Information
 
-If on starting the application, you see JSX linter error from App.tsx file, please modify line 21 in tsconfig.json to - "jsx": "react" (Bootstrapped with Typescript)
+I have included material-ui core and icons for better UI design. 
 
-For this app, I have included material-ui core and icons for better UI design. 
+Stretch goals not implemented (Could set up if mandatory).

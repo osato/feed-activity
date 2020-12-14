@@ -34,7 +34,6 @@ function Post() {
   const classes = useStyles();
   const [posts, setPosts] = useState<any[]>([]);
   const [comments, setComments] = useState<any[]>([]);
-  const [dense, setDense] = React.useState(false);
   const [selected, setSelected] = React.useState(null);
 
   const getComments = async () => {
@@ -98,7 +97,7 @@ function Post() {
               User Posts & Comments
             </Typography>
             <div className={classes.bgColor}>
-              <List className={classes.root} dense={dense}>
+              <List className={classes.root}>
                 {posts.map((post, index) => (
                   <React.Fragment>
                     <ListItem key={post.id} className={classes.click} onClick={() => handleClick(index)}>
